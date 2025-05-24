@@ -17,6 +17,9 @@ export const metadata = {
   title: "LearnHub",
   description:
     "LearnHub is an online learning platform offering high-quality courses, expert instructors, and a vibrant learning community. Learn anytime, anywhere with LearnHub.",
+  icons: {
+    icon: [{ url: "/Logo_Circle.png", sizes: "32x32", type: "image/png" }],
+  },
 };
 
 export default function RootLayout({ children }) {
